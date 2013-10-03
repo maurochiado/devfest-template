@@ -2,7 +2,10 @@ devfest-template
 ================
 
 GDG TORINO - template per eventi.
-
+Ciao!
+Mauro
+Luigi
+Matteo
 
 DevFest Website Template
 
