@@ -75,7 +75,7 @@ devfest.controller('HomeControl', function($scope){
 
 devfest.controller('NewsControl', function($scope, $http){
     $http.
-        jsonp('https://www.googleapis.com/plus/v1/activities?query=%23gdg+%23devfest+%23fresno&callback=JSON_CALLBACK&key=AIzaSyDssVSRzwj0vX4K3XsCVKJ-2LxCzXeiaNw').
+        jsonp('https://www.googleapis.com/plus/v1/activities?query=%23gdg+%23devfest+%23torino&callback=JSON_CALLBACK&key=AIzaSyDssVSRzwj0vX4K3XsCVKJ-2LxCzXeiaNw').
         success(function(response){
             $scope.news = $scope.splitNews(response.items);
         });
