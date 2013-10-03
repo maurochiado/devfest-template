@@ -1,0 +1,14 @@
+[
+    {
+        "speakers" : [{
+            "name" : "Joshua Woodward",
+            "gplusid" : "114658228251375812131",
+            "image" : "https://lh3.googleusercontent.com/-G_xmhZgINxg/AAAAAAAAAAI/AAAAAAAAAAA/DbSPp1SSti4/s50-c/photo.jpg",
+            "company" : "eBay",
+            "title" : "Software Engineer"
+        }],
+        "title" : "Speakers above is an array",
+        "desc" : "It can handle multiple speaker objects",
+        "id" : 0
+    }
+]

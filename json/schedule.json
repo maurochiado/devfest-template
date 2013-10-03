@@ -1,0 +1,17 @@
+[
+    {
+        "time" : {
+            "start" : 1380380400000,
+            "end" : 1382115600161
+        },
+        "sessions" : ["You can place in text here for sessions that are not tied to speakers"]
+    },
+    {
+        "time" : {
+            "start" : 1380384000000,
+            "end" : 1382115600161
+        },
+        "sessions" : [0],
+        "comment_delete" : "sessions in here are an array of session indexes from speakers.json"
+    }
+]
