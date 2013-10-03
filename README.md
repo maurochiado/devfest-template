@@ -1,5 +1,8 @@
-devfest-template
+devfest-template 
 ================
+
+GDG TORINO - template per eventi.
+
 
 DevFest Website Template
 
