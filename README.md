@@ -3,7 +3,7 @@ devfest-template
 
 DevFest Website Template
 
-look to gdgfresno.com/devfest for a sample
+look to http://gdgfresno.com/devfest for a sample
 
 this projects comes with no instructions
 
