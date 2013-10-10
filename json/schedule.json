@@ -1,17 +1,17 @@
 [
     {
         "time" : {
-            "start" : 1380380400000,
-            "end" : 1382115600161
+            "start" : 1382772600000,
+            "end" : 1382776200000
         },
-        "sessions" : ["You can place in text here for sessions that are not tied to speakers"]
+        "sessions" : ["Inizio: cosa ci dice il cloud"]
     },
     {
         "time" : {
-            "start" : 1380384000000,
-            "end" : 1382115600161
+            "start" : 1382776200000,
+            "end" : 1382779800000
         },
-        "sessions" : [0],
+        "sessions" : [0,1,0,1],
         "comment_delete" : "sessions in here are an array of session indexes from speakers.json"
     }
 ]
