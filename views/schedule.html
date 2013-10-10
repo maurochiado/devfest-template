@@ -4,7 +4,7 @@
         <div class="col-md-2">
             <div class="time col-md-12 text-center">
                 <div class="time-badge">
-                    <div class="time-hour">{{ slot.time.start | date:'hh' }}</div>
+                    <div class="time-hour">{{ slot.time.start | date:'HH:mm' }}</div>
                     <div class="time-ampm">{{ slot.time.start | date:'a' }}</div>
                 </div>
             </div>
@@ -12,22 +12,22 @@
 
         <div class="col-md-10 row" ng-hide="slot.sessions.length == 1">
             <div class="room col-md-6">
-                <div class="roomA" ng-hide="slot.sessions[0]==0">
+                <div class="roomA" ng-hide="!speakers[slot.sessions[0]].title || slot.sessions[0] < 0">
                     {{ speakers[slot.sessions[0]].title }}
                 </div>
             </div>
             <div class="room col-md-6">
-                <div class="roomB" ng-hide="slot.sessions[1]==0">
+                <div class="roomB" ng-hide="!speakers[slot.sessions[1]].title || slot.sessions[1] < 0">
                     {{ speakers[slot.sessions[1]].title }}
                 </div>
             </div>
             <div class="room col-md-6">
-                <div class="roomC" ng-hide="!speakers[slot.sessions[2]].title || slot.sessions[2]==0">
+                <div class="roomC" ng-hide="!speakers[slot.sessions[2]].title || slot.sessions[2] < 0">
                     {{ speakers[slot.sessions[2]].title }}
                 </div>
             </div>
             <div class="room col-md-6">
-                <div class="roomD" ng-hide="!speakers[slot.sessions[3]].title || slot.sessions[3]==0">
+                <div class="roomD" ng-hide="!speakers[slot.sessions[3]].title || slot.sessions[3] < 0">
                     {{ speakers[slot.sessions[3]].title }}
                 </div>
             </div>
@@ -36,6 +36,7 @@
             <div class="room col-md-12">
                 <div class="roomMain">
                     {{ slot.sessions[0] }}
+										{{ speakers[0].speakers[0]["name"] }}
                 </div>
             </div>
         </div>
